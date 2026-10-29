@@ -1,0 +1,39 @@
+2026-10-16T16:36:02.953489700 | Account: S001 | Type: DEPOSIT | Amount: M-5.00 | Balance: M1500.00 | Result: FAILED: Deposit amount must be greater than zero.
+2026-10-16T16:36:48.969438400 | Account: S001 | Type: DEPOSIT | Amount: M450.00 | Balance: M1950.00 | Result: SUCCESS
+2026-10-16T16:37:20.671568400 | Account: S001 | Type: WITHDRAWAL | Amount: M12000.00 | Balance: M1950.00 | Result: FAILED: Savings account must keep at least M100.
+2026-10-16T16:37:49.991708400 | Account: S001 | Type: WITHDRAWAL | Amount: M2500.00 | Balance: M1950.00 | Result: FAILED: Savings account must keep at least M100.
+2026-10-16T16:38:08.340460700 | Account: S001 | Type: WITHDRAWAL | Amount: M450.00 | Balance: M1500.00 | Result: SUCCESS
+2026-10-16T16:38:47.953861900 | Account: S001 | Type: TRANSFER | Amount: M450.00 | Balance: M1500.00 | Result: FAILED: destination account not found
+2026-10-16T16:39:13.689877700 | Account: S001 | Type: INTEREST CALCULATION | Amount: M75.00 | Balance: M1500.00 | Result: SUCCESS
+2026-10-16T16:39:43.491467800 | Account: S001 | Type: LOAN REQUEST | Amount: M12000.00 | Balance: M1500.00 | Result: REJECTED
+2026-10-16T16:40:03.460619400 | Account: S001 | Type: LOAN REQUEST | Amount: M450.00 | Balance: M1500.00 | Result: APPROVED
+2026-10-16T16:54:27.913162200 | Account: S001 | Type: TRANSFER OUT | Amount: M350.00 | Balance: M1150.00 | Result: SUCCESS
+2026-10-16T16:54:27.924047400 | Account: C001 | Type: TRANSFER IN | Amount: M350.00 | Balance: M3350.00 | Result: SUCCESS
+2026-10-16T16:55:47.643530200 | Account: C001 | Type: INTEREST CALCULATION | Amount: M0.00 | Balance: M3350.00 | Result: SUCCESS
+2026-10-16T16:56:22.545373 | Account: C001 | Type: LOAN REQUEST | Amount: M340.00 | Balance: M3350.00 | Result: APPROVED
+2026-10-16T16:56:36.486162 | Account: C001 | Type: INTEREST CALCULATION | Amount: M0.00 | Balance: M3350.00 | Result: SUCCESS
+2026-10-16T16:57:16.007184500 | Account: C001 | Type: WITHDRAWAL | Amount: M3900.00 | Balance: M-550.00 | Result: SUCCESS
+2026-10-16T17:51:38.151504800 | Account: 900010 | Type: TRANSFER | Amount: M2500.00 | Balance: M100.00 | Result: FAILED: Savings account must keep at least M100.
+2026-10-16T17:52:07.117864 | Account: 900010 | Type: DEPOSIT | Amount: M0.00 | Balance: M100.00 | Result: INVALID: Deposit amount must be greater than zero.
+2026-10-16T17:52:32.094303800 | Account: 900010 | Type: DEPOSIT | Amount: M-9.00 | Balance: M100.00 | Result: INVALID: Deposit amount must be greater than zero.
+2026-10-16T17:53:16.962205900 | Account: 900010 | Type: WITHDRAWAL | Amount: M2500.00 | Balance: M100.00 | Result: INVALID: Savings account must keep at least M100.
+2026-10-16T17:55:34.964851200 | Account: 900010 | Type: WITHDRAWAL | Amount: M123.00 | Balance: M100.00 | Result: INVALID: Savings account must keep at least M100.
+2026-10-16T17:59:21.501297600 | Account: 900010 | Type: DEPOSIT | Amount: M3000.00 | Balance: M3100.00 | Result: SUCCESS
+2026-10-16T18:00:00.807854200 | Account: 900010 | Type: TRANSFER OUT | Amount: M200.00 | Balance: M2900.00 | Result: SUCCESS
+2026-10-16T18:00:00.809141900 | Account: 900011 | Type: TRANSFER IN | Amount: M200.00 | Balance: M300.00 | Result: SUCCESS
+2026-10-16T18:02:36.343217600 | Account: 900010 | Type: DEPOSIT | Amount: M2900.00 | Balance: M3000.00 | Result: SUCCESS
+2026-10-16T18:03:20.446655200 | Account: 900010 | Type: TRANSFER OUT | Amount: M2900.00 | Balance: M100.00 | Result: SUCCESS
+2026-10-16T18:03:20.447694400 | Account: 900011 | Type: TRANSFER IN | Amount: M2900.00 | Balance: M3000.00 | Result: SUCCESS
+2026-10-16T18:29:20.836638500 | Account: 900012 | Type: ACCOUNT CREATION | Amount: M100.00 | Balance: M100.00 | Result: SUCCESS
+2026-10-20 14:04:45 | Account: 900010 | Type: DEPOSIT | Amount: M30.00 | Balance: M1030.00 | Result: SUCCESS
+2026-10-20 14:05:32 | Account: 900010 | Type: WITHDRAWAL | Amount: M930.00 | Balance: M100.00 | Result: SUCCESS
+2026-10-20 14:09:15 | Account: 900012 | Type: ACCOUNT CREATION | Amount: M100.00 | Balance: M100.00 | Result: SUCCESS
+2026-10-21 21:11:27 | Account: 900010 | Type: LOAN REQUEST | Amount: M3000.00 | Balance: M1000.00 | Result: APPROVED
+2026-10-21 21:12:40 | Account: 900010 | Type: LOAN REQUEST | Amount: M3000.00 | Balance: M1000.00 | Result: APPROVED
+2026-10-21 21:15:41 | Account: 900010 | Type: TRANSFER OUT | Amount: M100.00 | Balance: M900.00 | Result: SUCCESS
+2026-10-21 21:15:41 | Account: 900011 | Type: TRANSFER IN | Amount: M100.00 | Balance: M2100.00 | Result: SUCCESS
+2026-10-21 21:18:31 | Account: 900010 | Type: DEPOSIT | Amount: M234.00 | Balance: M1134.00 | Result: SUCCESS
+2026-10-21 21:19:46 | Account: 900010 | Type: WITHDRAWAL | Amount: M134.00 | Balance: M1000.00 | Result: SUCCESS
+2026-10-24 13:06:14 | Account: 900010 | Type: LOAN REQUEST | Amount: M1500.00 | Balance: M2500.00 | Result: APPROVED
+2026-10-24 13:08:00 | Account: 900010 | Type: WITHDRAWAL | Amount: M1500.00 | Balance: M1000.00 | Result: SUCCESS
+2026-10-24 13:08:21 | Account: 900010 | Type: LOAN REQUEST | Amount: M1500.00 | Balance: M2500.00 | Result: APPROVED
